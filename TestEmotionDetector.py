@@ -44,7 +44,7 @@ while True:
         
         cv2.putText(frame, last_emotion, (x+5, y-20), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2, cv2.LINE_AA)
     
-    cv2.imshow('Emotion Detection', frame)
+    cv2.imshow('Myy python Project', frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):    
         break
 

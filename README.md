@@ -16,8 +16,26 @@ The moods in it are:
 5 = Supprise
 6 = Neutral
 
+PROJECT DESCRIPTION:
+       It works by running the program in the Terminal or Command Line. When this is  done, the program will Load the already trained model from the .json file and add the weight , if there is no error, it wil Launch Open CV Library to open the Camera. While True,  the model run in the camera feed and uses haarcascade_frontalface_default.xml to detect the faces in the camera, and model, the mood in the face, and creates a green box, around it. And Finnally prints the detected mood. 
+
 Source:
 Kaggle
+Name:FER 13 Dataset
+
+LIBRARIES
+1. Numpy
+2. Keras
+3. Open Cv
+4. Pillow
+
+Others:
+Haarcascade_frontalface_default.xml
+
+Requirements:
+A good laptop withh a good speed. 
+
+
 LESSONS LELARNED:
 I have more about the capabiities of python, it's application in Image detection and machine learning.
-I have leaarned some applications of face recogition works, especially facebook.
+I have learned some applications of face recogition works, especially facebook.
